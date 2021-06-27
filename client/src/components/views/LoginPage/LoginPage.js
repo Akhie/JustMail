@@ -25,6 +25,7 @@ function LoginPage(props) {
 
   const responseGoogle = response => {
 
+    console.log(response);
     let dataToSubmit = {
       email: response.dt.Nt,
       name: response.dt.Ve,
